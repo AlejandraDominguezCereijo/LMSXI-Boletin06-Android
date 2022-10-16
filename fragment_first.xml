@@ -8,7 +8,7 @@
     <!ATTLIST androidx.constraintlayout.widget.ConstraintLayout android:layout_height CDATA #REQUIRED>
     <!ATTLIST androidx.constraintlayout.widget.ConstraintLayout tools:context CDATA #REQUIRED>
     <!ELEMENT TextView EMPTY>
-    <!ATTLIST TextView android:id CDATA ID #REQUIRED>
+    <!ATTLIST TextView android:id CDATA #REQUIRED>
     <!ATTLIST TextView android:layout_width CDATA #REQUIRED>
     <!ATTLIST TextView android:layout_height CDATA #REQUIRED>
     <!ATTLIST TextView android:text CDATA #REQUIRED>
@@ -17,14 +17,14 @@
     <!ATTLIST TextView app:layout_constraintStart_toStartOf CDATA #REQUIRED>
     <!ATTLIST TextView app:layout_constraintTop_toTopOf CDATA #REQUIRED>
     <!ELEMENT Button EMPTY>
-    <!ATTLIST Button android:id CDATA ID #REQUIRED>
-    <!ATTLIST Button android:layout_width CDATA ID #REQUIRED>
-    <!ATTLIST Button android:layout_height CDATA ID #REQUIRED>
-    <!ATTLIST Button android:text CDATA ID #REQUIRED>
-    <!ATTLIST Button app:layout_constraintBottom_toBottomOf CDATA ID #REQUIRED>
-    <!ATTLIST Button app:layout_constraintEnd_toEndOf CDATA ID #REQUIRED>
-    <!ATTLIST Button app:layout_constraintStart_toStartOf CDATA ID #REQUIRED>
-    <!ATTLIST Button app:layout_constraintTop_toBottomOf CDATA ID #REQUIRED>
+    <!ATTLIST Button android:id CDATA #REQUIRED>
+    <!ATTLIST Button android:layout_width CDATA #REQUIRED>
+    <!ATTLIST Button android:layout_height CDATA #REQUIRED>
+    <!ATTLIST Button android:text CDATA #REQUIRED>
+    <!ATTLIST Button app:layout_constraintBottom_toBottomOf CDATA #REQUIRED>
+    <!ATTLIST Button app:layout_constraintEnd_toEndOf CDATA #REQUIRED>
+    <!ATTLIST Button app:layout_constraintStart_toStartOf CDATA #REQUIRED>
+    <!ATTLIST Button app:layout_constraintTop_toBottomOf CDATA #REQUIRED>
 
 ]>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
