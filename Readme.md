@@ -45,4 +45,4 @@ graph TD;
     Noria-->Mercadillo;
 ```
 
-
+![Nueva imagen](.img/../img/56c9fdb94833155f390590d362b26942.jpg)
